@@ -3,6 +3,9 @@ from termcolor import colored, cprint
 def has_numbers(inputString):
     return any(char.isdigit() for char in inputString)
 
+def fonction_a_tester():
+    return 'Hello'
+
 def try_me():
     name = input('Whats your name ? ')
 
